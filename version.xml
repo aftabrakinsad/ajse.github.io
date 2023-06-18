@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/generic/AJSEThemeCards/version.xml
+  *
+  * Copyright (c) 2014-2023 Simon Fraser University Library
+  * Copyright (c) 2003-2023 John Willinsky
+  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+  *
+  * Plugin version information.
+  -->
+
+<version>
+	<application>AJSEThemeCards</application>
+	<type>plugins.themes</type>
+	<release>1.0.0.0</release>
+	<date>2023-07-27</date>
+	<lazy-load>1</lazy-load>
+	<class>AJSEThemeCardsThemePlugin</class>
+</version>

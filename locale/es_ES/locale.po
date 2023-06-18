@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-02-18T19:18:25+00:00\n"
+"PO-Revision-Date: 2020-02-18T19:18:25+00:00\n"
+"Language: \n"
+
+msgid "plugins.themes.AJSEThemeCards.name"
+msgstr "Tema Base Bootstrap 3"
+
+msgid "plugins.themes.AJSEThemeCards.description"
+msgstr "Un tema de inicio de Bootstrap 3 para la interfaz del lector."
+
+msgid "plugins.themes.AJSEThemeCards.accessible_menu.label"
+msgstr "Salto rápido al contenido de la página"
+
+msgid "plugins.themes.AJSEThemeCards.accessible_menu.main_navigation"
+msgstr "Navegación principal"
+
+msgid "plugins.themes.AJSEThemeCards.accessible_menu.main_content"
+msgstr "Contenido principal"
+
+msgid "plugins.themes.AJSEThemeCards.accessible_menu.sidebar"
+msgstr "Barra lateral"
+
+msgid "plugins.themes.AJSEThemeCards.article.sidebar"
+msgstr "Barra lateral del artículo"
+
+msgid "plugins.themes.AJSEThemeCards.article.main"
+msgstr "Contenido principal del artículo"
+
+msgid "plugins.themes.AJSEThemeCards.article.details"
+msgstr "Detalles del artículo"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.label"
+msgstr "Tema Bootstrap"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.description"
+msgstr "Seleccione uno de estos temas de código abierto Bootstrap que cambian los colores y la tipografía de su sitio web."
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.AJSEThemeCards"
+msgstr "Tema predeterminado Bootstrap"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.cerulean"
+msgstr "Cerulean"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.cleanblog"
+msgstr "Clean Blog"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.cosmo"
+msgstr "Cosmo"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.cyborg"
+msgstr "Cyborg"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.darkly"
+msgstr "Darkly"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.flatly"
+msgstr "Flatly"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.journal"
+msgstr "Journal"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.lumen"
+msgstr "Lumen"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.paper"
+msgstr "Paper"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.readable"
+msgstr "Readable"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.sandstone"
+msgstr "Sandstone"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.simplex"
+msgstr "Simplex"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.slate"
+msgstr "Slate"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.spacelab"
+msgstr "Spacelab"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.superhero"
+msgstr "Superhero"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.united"
+msgstr "United"
+
+msgid "plugins.themes.AJSEThemeCards.options.bootstrapTheme.yeti"
+msgstr "Yeti"

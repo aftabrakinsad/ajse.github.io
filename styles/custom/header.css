@@ -1,0 +1,742 @@
+* {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		font-family: Arial;
+	}
+
+	body {
+		font-family: 'Times New Roman', Times, serif;
+	}
+
+	.site-name {
+		display: none;
+	}
+
+	._header_1 {
+		background-color: #034EA1;
+		width: 100%;
+		height: 20px;
+	}
+
+	.navbar-default {
+    	background-color: #FFFFFF;
+    	color: white;
+		position: sticky;
+		top: 0;
+		z-index: 2;
+	}
+
+	.navbar-collapse {
+		background-color: #FFFFFF !important;
+	}
+
+	.AJSE_logo a img {
+		width: 400px;
+		height: auto;
+		display: block;
+		margin-left: 120px;
+	}
+
+	.navbar-nav>li>a {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.middle_header::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	.header_2 {
+		float: left;
+		padding-left: 0px;
+	}
+
+	.ajse_ISSN {
+		margin-top: 15px;
+		float: right;
+		padding-right: 160px;
+		position: flex;
+	}
+
+	.ISSN_table {
+		border-collapse: collapse;
+		border: 3px solid grey;
+	}
+
+	.ISSN_table, th, td {
+		text-align: center;
+		padding: 5px;
+	}
+
+	.navbar-nav {
+		background-color: #9BC53D !important;
+		border-radius: 10px;
+		margin-left: 97px;
+		width: 86%;
+		position: flex;
+	}
+
+	.navbar-nav .dropdown-menu {
+		float: left;
+		background-color: #9BC53D;
+		border-radius: 10px;
+	}
+
+	.navbar-header {
+		border-top: 5px solid white;
+		border-bottom: 3px solid white;
+	}
+
+	.navbar, .header_view {
+		min-height: 0px;
+		margin-bottom: 0px;
+	}
+
+	.menu-item-8, .menu-item-9, .menu-item-10, .menu-item-15, .menu-item-16, .menu-item-17, .menu-item-18, .menu-item-49 {
+		border: none;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		transition-duration: 0.4s;
+		cursor: pointer;
+		font-size: 13px;
+		font-weight: bold;
+	}
+
+	.navbar-nav .menu-item-8 {
+		border: 2px solid #9BC53D;
+		border-radius: 10px;
+		float: right;
+	}
+
+	.menu-item-8 a:hover {
+		background-color: white !important;
+		border-radius: 10px;
+		color: black !important;
+	}
+
+	.navbar-nav .menu-item-49 {
+		border: 2px solid #9BC53D;
+		border-radius: 10px;
+	}
+
+	.menu-item-49 a:hover {
+		background-color: white !important;
+		border-radius: 10px;
+		color: black !important;
+	}
+
+	.navbar-nav .menu-item-9 {
+		border: 2px solid #9BC53D;
+		border-radius: 10px;
+		float: right;
+		background-color: #007BFF !important;
+	}
+
+	.menu-item-9 a:hover {
+		background-color: white !important;
+		border-radius: 10px;
+		color: black !important;
+	}
+
+	.navbar-nav .menu-item-10 {
+		border: 2px solid #9BC53D;
+		border-radius: 10px;
+		float: right;
+	}
+
+	.menu-item-10 a:hover {
+		background-color: white !important;
+		border-radius: 10px;
+		color: black !important;
+	}
+
+	.navbar-nav .menu-item-15 {
+		border: 2px solid #9BC53D;
+		border-radius: 10px;
+	}
+
+	.menu-item-15 a:hover {
+		background-color: white !important;
+		border-radius: 10px;
+		color: black !important;
+	}
+
+	.navbar-nav .menu-item-16 {
+		border: 2px solid #9BC53D;
+		border-radius: 10px;
+	}
+
+	.menu-item-16 a:hover {
+		background-color: white !important;
+		border-radius: 10px;
+		color: black !important;
+	}
+
+	.navbar-nav .menu-item-17 {
+		border: 2px solid #9BC53D;
+		border-radius: 10px;
+	}
+
+	.menu-item-17 a:hover {
+		background-color: white !important;
+		border-radius: 10px;
+		color: black !important;
+	}
+
+	.navbar-nav .menu-item-20 {
+		border: 2px solid #9BC53D;
+		border-radius: 10px;
+	}
+
+	.menu-item-20 a:hover {
+		background-color: white !important;
+		border-radius: 10px;
+		color: black !important;
+	}
+
+	.navbar-nav .menu-item-25 {
+		border: 2px solid #9BC53D;
+		border-radius: 10px;
+	}
+
+	.menu-item-25 a:hover {
+		background-color: white !important;
+		border-radius: 10px;
+		color: black !important;
+	}
+
+	.navbar-nav .menu-item-18 {
+		border: 2px solid #9BC53D;
+		border-radius: 10px;
+	}
+
+	.menu-item-18 a:hover {
+		background-color: white !important;
+		border-radius: 10px;
+		color: black !important;
+	}
+
+	.navbar-nav .menu-item-19 {
+		border: 2px solid #9BC53D;
+		background-color: #9BC53D;
+	}
+
+	.menu-item-19 a:hover {
+		background-color: white !important;
+		color: black !important;
+	}
+
+	/* .navbar-nav .menu-item-22 {
+		border: 2px solid #9BC53D;
+		border-radius: 10px;
+	} */
+
+	/* .menu-item-22 a:hover {
+		background-color: white !important;
+		border-radius: 10px;
+		color: black !important;
+	} */
+
+	.navbar-toggle {
+		margin-right: 5px;
+	}
+
+	.navbar-toggle .collapsed {
+		color: white !important;
+	}
+
+	.navbar-toggle .collapsed:hover {
+		color: white !important;
+	}
+
+
+	@media only screen and (max-width: 2000px) {
+		.AJSE_logo a img {
+			float: left;
+			width: 400px;
+			height: auto;
+			display: block;
+			margin-left: 65px;
+		}
+
+		.header_2 {
+			float: left;
+			padding-left: 50px;
+		}
+
+		.ajse_ISSN {
+			margin-top: 15px;
+			float: right;
+			/* padding-right: 195px; */
+			position: flex;
+		}
+
+		.ISSN_table {
+			border-collapse: collapse;
+			border: 3px solid grey;
+		}
+
+		.ISSN_table, th, td {
+			text-align: center;
+			padding: 5px;
+		}
+
+		.navbar-nav {
+			background-color: #9BC53D !important;
+			border-radius: 10px;
+			margin-left: 88px;
+			width: 88%;
+			position: flex;
+		}
+	}
+
+	@media only screen and (max-width: 1400px) {
+		.AJSE_logo a img {
+			float: left;
+			width: 400px;
+			height: auto;
+			display: block;
+			margin-left: 50px;
+		}
+
+		.header_2 {
+			float: left;
+			padding-left: 50px;
+		}
+
+		.ajse_ISSN {
+			margin-top: 15px;
+			float: right;
+			padding-right: 110px;
+			position: flex;
+		}
+
+		.ISSN_table {
+			border-collapse: collapse;
+			border: 3px solid grey;
+		}
+
+		.ISSN_table, th, td {
+			text-align: center;
+			padding: 5px;
+		}
+
+		.navbar-nav {
+			background-color: #9BC53D !important;
+			border-radius: 10px;
+			margin-left: 88px;
+			width: 88%;
+			position: flex;
+		}
+	}
+
+	@media only screen and (max-width: 1032px) {
+		.AJSE_logo a img {
+			float: left;
+			width: 400px;
+			height: auto;
+			display: block;
+			margin-left: 50px;
+		}
+
+		.header_2 {
+			float: left;
+			padding-left: 50px;
+		}
+
+		.ajse_ISSN {
+			margin-top: 15px;
+			float: right;
+			padding-right: 120px;
+			position: flex;
+		}
+
+		.ISSN_table {
+			border-collapse: collapse;
+			border: 3px solid grey;
+		}
+
+		.ISSN_table, th, td {
+			text-align: center;
+			padding: 5px;
+		}
+
+		.navbar-nav {
+			background-color: #9BC53D !important;
+			border-radius: 10px;
+			margin-left: 88px;
+			width: 84%;
+			position: flex;
+		}
+	}
+
+	@media only screen and (max-width: 900px) {
+		.site-name {
+			display: none;
+		}
+
+		.AJSE_logo a img {
+			float: left;
+			width: 320px;
+			height: 100px;
+			display: block;
+			margin-left: 40px;
+		}
+
+		.header_2 {
+			float: left;
+			padding-left: 0px;
+		}
+
+		.ajse_ISSN {
+			margin-top: 15px;
+			float: right;
+			padding-right: 80px;
+			position: flex;
+		}
+
+		.ISSN_table {
+			border-collapse: collapse;
+			border: 3px solid grey;
+		}
+
+		.ISSN_table, th, td {
+			text-align: center;
+			padding: 5px;
+		}
+
+		.navbar-nav {
+			background-color: #9BC53D !important;
+			border-radius: 10px;
+			margin-left: 20px;
+			width: 94%;
+			position: flex;
+		}
+	}
+
+	@media only screen and (max-width: 768px) {
+		.site-name {
+			display: none;
+		}
+
+		.AJSE_logo a img {
+			float: left;
+			width: 320px;
+			height: 100px;
+			display: block;
+			margin-left: 40px;
+		}
+
+		.navbar-nav {
+			background-color: #9BC53D !important;
+			border-radius: 10px;
+			margin-left: 20px;
+			width: 94%;
+			position: flex;
+		}
+
+		.navbar-default {
+			background-color: #FFFFFF !important;
+		}
+
+		.ajse_ISSN {
+			margin-top: 15px;
+			float: right;
+			padding-right: 80px;
+			position: flex;
+		}
+
+		.ISSN_table {
+			border-collapse: collapse;
+			border: 3px solid grey;
+		}
+
+		.ISSN_table, th, td {
+			text-align: center;
+			padding: 5px;
+		}
+
+		.navbar-toggle {
+			color: white !important;
+		}
+	}
+
+	@media only screen and (max-width: 767px) {
+		.site-name {
+			display: block;
+		}
+
+		.AJSE_logo a img {
+			float: left;
+			width: 320px;
+			height: 100px;
+			display: block;
+			margin-left: 40px;
+		}
+
+		.navbar-nav {
+			background-color: #9BC53D !important;
+			border-radius: 10px;
+			margin-left: 20px;
+			width: 94%;
+			position: flex;
+		}
+
+		.navbar-default {
+			background-color: #9BC53D !important;
+		}
+	}
+
+	@media only screen and (max-width: 600px) {
+		.site-name {
+			display: block;
+		}
+
+		.AJSE_logo a img {
+			float: left;
+			width: 320px;
+			height: 100px;
+			display: block;
+			margin-left: -15px;
+		}
+
+		.navbar-nav {
+			background-color: #9BC53D !important;
+			border-radius: 10px;
+			margin-left: 20px;
+			width: 94%;
+			position: flex;
+		}
+
+		.navbar-default {
+			background-color: #9BC53D !important;
+		}
+
+
+		.ajse_ISSN {
+			margin-top: 15px;
+			float: right;
+			padding-right: 15px;
+			position: flex;
+		}
+
+
+		.ISSN_table {
+			border-collapse: collapse;
+			border: 3px solid grey;
+		}
+
+
+		.ISSN_table, th, td {
+			text-align: center;
+			padding: 5px;
+		}
+	}
+
+	@media only screen and (max-width: 460px) {
+		.site-name {
+			display: block;
+		}
+
+		.AJSE_logo a img {
+			margin-top: 3px;
+			float: left;
+			width: 250px;
+			height: auto;
+			display: block;
+			margin-left: -15px;
+		}
+
+		.header_2 {
+			float: left;
+		}
+
+
+		.ajse_ISSN {
+			margin-top: 5px;
+			float: right;
+			padding-right: 15px;
+			position: flex;
+		}
+
+
+		.ISSN_table {
+			border-collapse: collapse;
+			border: 2px solid grey;
+		}
+
+
+		.ISSN_table, th, td {
+			text-align: center;
+			padding: 3px;
+		}
+
+		.navbar-nav {
+			background-color: #9BC53D !important;
+			border-radius: 10px;
+			margin-left: 20px;
+			width: 94%;
+			position: flex;
+		}
+
+		.navbar-default {
+			background-color: #9BC53D !important;
+		}
+	}
+
+	@media only screen and (max-width: 382px) {
+		.site-name {
+			display: block;
+		}
+
+		.AJSE_logo a img {
+			margin-top: 3px;
+			float: left;
+			width: 200px;
+			height: auto;
+			display: block;
+			margin-left: -5px;
+		}
+
+		.header_2 {
+			float: left;
+		}
+
+
+		.ajse_ISSN {
+			margin-top: 5px;
+			float: right;
+			padding-right: 15px;
+			position: flex;
+		}
+
+
+		.ISSN_table {
+			border-collapse: collapse;
+			border: 1px solid grey;
+		}
+
+
+		.ISSN_table, th, td {
+			text-align: center;
+			padding: 2px;
+		}
+
+		.navbar-nav {
+			background-color: #9BC53D !important;
+			border-radius: 10px;
+			margin-left: 20px;
+			width: 94%;
+			position: flex;
+		}
+
+		.navbar-default {
+			background-color: #9BC53D !important;
+		}
+	}
+
+	@media only screen and (max-width: 338px) {
+		.site-name {
+			display: block;
+		}
+
+		.AJSE_logo a img {
+			margin-top: 3px;
+			float: left;
+			width: 200px;
+			height: auto;
+			display: block;
+			margin-left: 73px;
+		}
+
+		.header_2 {
+			float: left;
+		}
+
+		.ajse_ISSN {
+			margin-top: 10px;
+			float: right;
+			padding-right: 100px;
+			position: flex;
+		}
+
+
+		.ISSN_table {
+			border-collapse: collapse;
+			border: 1px solid grey;
+		}
+
+
+		.ISSN_table, th, td {
+			text-align: center;
+			padding: 2px;
+		}
+
+		.navbar-nav {
+			background-color: #9BC53D !important;
+			border-radius: 10px;
+			margin-left: 20px;
+			width: 94%;
+			position: flex;
+		}
+
+		.navbar-default {
+			background-color: #9BC53D !important;
+		}
+	}
+
+	@media only screen and (max-width: 281px) {
+		.site-name {
+			display: block;
+		}
+
+		.AJSE_logo a img {
+			margin-top: 3px;
+			float: left;
+			width: 200px;
+			height: auto;
+			display: block;
+			margin-left: 50px;
+		}
+
+		.header_2 {
+			float: left;
+		}
+
+
+		.ajse_ISSN {
+			margin-top: 10px;
+			float: right;
+			padding-right: 82px;
+			position: flex;
+		}
+
+
+		.ISSN_table {
+			border-collapse: collapse;
+			border: 1px solid grey;
+		}
+
+
+		.ISSN_table, th, td {
+			text-align: center;
+			padding: 2px;
+		}
+
+		.navbar-nav {
+			background-color: #9BC53D !important;
+			border-radius: 10px;
+			margin-left: 20px;
+			width: 94%;
+			position: flex;
+		}
+
+		.navbar-default {
+			background-color: #9BC53D !important;
+		}
+	}
